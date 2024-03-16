@@ -6,7 +6,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle'
 const navbar = () => {
   return (
     <>
-    <div className='maincontainer border rounded-b-xl m-auto w-[90vw] flex flex-row no-wrap justify-between items-center bg-gray-200'>
+    <div className='maincontainer m-auto flex flex-row no-wrap justify-between items-center'>
       <img className="ml-[25px]" width={200} src={ParkiezLogo} alt="logo" />
       <div className="right text-gray-500 text-xl">
         <NotificationsIcons className="mr-8" style={{ fontSize: '1.2em'}}/>
